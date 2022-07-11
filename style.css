@@ -111,11 +111,12 @@ h1 {
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
-    main {
+    body {
+        display: flex;
         background-image: url("img/fundo.jpg");
         background-size: cover;
-        background-position: center;
-        height: 300vmin;
+        background-repeat: no-repeat;
+        height: 200vh;
     }
     nav {
         display: grid;
@@ -183,12 +184,12 @@ h1 {
 }
 
 @media screen and (max-width: 499px) {
-    main {
+    body {
+        display: flex;
         background-image: url("img/fundo.jpg");
         background-size: cover;
-        background-position: center;
-        height: 150vmax;
-        width: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
     nav {
         display: grid;
@@ -243,10 +244,10 @@ h1 {
     .texto_final {
         display: grid;
         position: relative;
-        color: aliceblue;
+        color: rgb(0, 0, 0);
         justify-items: center;
         font-size: 3em;
-        border: 1px solid beige;
+        border: 1px solid rgb(7, 7, 7);
         width: 25vh;
         height: 15vh;
         left: 40%;
